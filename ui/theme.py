@@ -278,10 +278,14 @@ def injetar_css() -> None:
             text-transform: uppercase; letter-spacing: 0.09em;
             font-weight: 600; margin-bottom: 8px;
         }}
+        /* O valor acompanha a largura do próprio card (unidade cqi), para
+           "R$ 123.456,78" caber numa linha só também em notebooks, onde cinco
+           cards lado a lado ficam estreitos. */
+        .kpi-card {{ container-type: inline-size; }}
         .kpi-card .kpi-valor {{
             font-family: 'Space Grotesk', sans-serif; font-weight: 700;
-            font-size: 1.85rem; color: {BRANCO}; line-height: 1.15;
-            letter-spacing: -0.02em;
+            font-size: clamp(1.05rem, 12cqi, 1.85rem); color: {BRANCO}; line-height: 1.15;
+            letter-spacing: -0.02em; white-space: nowrap;
         }}
         .kpi-card .kpi-subtitulo {{ font-size: 0.88rem; margin-top: 5px; font-weight: 500; }}
 
