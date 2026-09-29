@@ -4,6 +4,8 @@
 
 **CRM and back office for small video production companies: clients, projects, quotes and proposals, partner contributions, cash flow, fixed costs, equipment, team tasks and an automatic P&L (DRE). Built with Python, Streamlit and SQLite.**
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://claquete-crm.streamlit.app)
+
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.64-FF4B4B?logo=streamlit&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-local-003B57?logo=sqlite&logoColor=white)
@@ -17,13 +19,15 @@
 
 ## Live demo
 
-**[Open the demo](https://SEU-APP.streamlit.app)**
+**[Open the demo](https://claquete-crm.streamlit.app)**
 
 | User | Password |
 |---|---|
 | `demo` | `claquete` |
 
 Feel free to create, edit and delete anything. The database resets to its initial state every time the server restarts.
+
+If nobody has opened the demo in a while, Streamlit shows a *"This app has gone to sleep"* screen. Click **Yes, get this app back up!** and wait about 30 seconds.
 
 ---
 
@@ -105,7 +109,7 @@ flowchart LR
 Requires Python 3.11 or newer.
 
 ```bash
-git clone https://github.com/SEU-USUARIO/claquete-crm.git
+git clone https://github.com/alissonlittig/claquete-crm.git
 cd claquete-crm
 python -m venv venv
 # Windows: venv\Scripts\activate    |    Mac/Linux: source venv/bin/activate

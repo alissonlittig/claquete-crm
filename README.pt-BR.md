@@ -4,6 +4,8 @@
 
 **CRM e gestão para pequenas produtoras audiovisuais: clientes, projetos, orçamentos e propostas, aportes dos sócios, fluxo de caixa, custos fixos, equipamentos, agenda da equipe e DRE automático. Feito em Python, Streamlit e SQLite.**
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://claquete-crm.streamlit.app)
+
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.64-FF4B4B?logo=streamlit&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-local-003B57?logo=sqlite&logoColor=white)
@@ -17,13 +19,15 @@
 
 ## Demonstração online
 
-**[Abrir a demonstração](https://SEU-APP.streamlit.app)**
+**[Abrir a demonstração](https://claquete-crm.streamlit.app)**
 
 | Usuário | Senha |
 |---|---|
 | `demo` | `claquete` |
 
 Pode cadastrar, editar e excluir à vontade. O banco volta ao estado inicial sempre que o servidor reinicia.
+
+Se ninguém abriu a demo há algum tempo, o Streamlit mostra a tela *"This app has gone to sleep"*. Clique em **Yes, get this app back up!** e aguarde uns 30 segundos.
 
 ---
 
@@ -105,7 +109,7 @@ flowchart LR
 Precisa de Python 3.11 ou mais novo.
 
 ```bash
-git clone https://github.com/SEU-USUARIO/claquete-crm.git
+git clone https://github.com/alissonlittig/claquete-crm.git
 cd claquete-crm
 python -m venv venv
 # Windows: venv\Scripts\activate    |    Mac/Linux: source venv/bin/activate
