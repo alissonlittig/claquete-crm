@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.vscode/
+
+# Segredos: nunca vão para o GitHub
+.env
+.streamlit/secrets.toml
+
+# Banco local (é recriado sozinho com os dados da demonstração)
+data/
+backups/

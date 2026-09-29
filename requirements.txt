@@ -1,0 +1,5 @@
+# Versões fixas: a demonstração publicada não pode mudar de comportamento
+# sozinha quando uma dessas bibliotecas lançar uma versão nova.
+streamlit==1.64.0
+plotly==7.1.0
+pandas==3.0.6

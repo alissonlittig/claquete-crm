@@ -1,0 +1,20 @@
+# Tema nativo do Streamlit com as cores da Claquete.
+# (O acabamento fino — listras, fontes, cards — está em ui/theme.py)
+
+[theme]
+base = "dark"
+primaryColor = "#FACC15"
+backgroundColor = "#0A0C10"
+secondaryBackgroundColor = "#13161C"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[server]
+headless = true
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showSidebarNavigation = false
